@@ -15,6 +15,8 @@ class Person {
 class Student extends Person {
 	construtor(name, age)  {
 		super(name,age);
+		this.name = name;
+		this.name = age;
 	}
 	study() {
 		console.log(this.name + " is studying")
@@ -24,6 +26,8 @@ class Student extends Person {
 class Teacher extends Person {
 	construtor(name, age) {
 		super(name, age);
+		this.name = name;
+		this.age = age;
 	}
 	teach() {
 		console.log(this.name + " is teaching")
