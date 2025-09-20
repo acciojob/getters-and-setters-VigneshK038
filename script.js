@@ -1,35 +1,25 @@
 //complete this code
 class Person {
-	construtor(name, age) {
+	construtor(name: string, age: number) {
 		this.name = name;
 		this.age = age;
 	}
-	get name() {
-		return this.name
+	get name(): string {
+		return this.name;
 	}
-	set age(uage) {
-		this.age = uage;
+	set age(age: number) {
+		return this.age = age;
 	}
 }
 
 class Student extends Person {
-	construtor(name, age)  {
-		super(name,age);
-		this.name = name;
-		this.name = age;
-	}
-	study() {
+	study(): void {
 		console.log(this.name + " is studying")
 	}
 }
 
 class Teacher extends Person {
-	construtor(name, age) {
-		super(name, age);
-		this.name = name;
-		this.age = age;
-	}
-	teach() {
+	teach(): void {
 		console.log(this.name + " is teaching")
 	}
 }
