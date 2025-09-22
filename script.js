@@ -39,10 +39,10 @@ console.log(person.name);
 person.age=30;
 console.log(person.age);
 
-const student = new Student("Alice", 22);
+const student = new Student("John", 30);
 student.study();
 
-const teacher =  new Teacher("Bob", 40);
+const teacher =  new Teacher("John", 30);
 teacher.teach();
 
 // Do not change the code below this line
