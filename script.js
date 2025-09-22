@@ -1,17 +1,17 @@
 //complete this code
 class Person {
     constructor(name, age) {
-        this.personName = name;
-        this.personAge = age;
+        this._name = name;
+        this._age = age;
     }
     get name() {
-        return this.personName;
+        return this._name;
     }
     set age(num) {
-        this.personAge = num;
+        this._age = num;
     }
     get age() {
-        return this.personAge;
+        return this._age;
     }
 }
 
@@ -42,7 +42,7 @@ console.log(person.age);
 const student = new Student("John", 30);
 student.study();
 
-const teacher =  new Teacher("John", 30);
+const teacher =  new Teacher("Alice", 30);
 teacher.teach();
 
 // Do not change the code below this line
